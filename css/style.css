@@ -292,12 +292,10 @@ button {
     padding: 1em;
 }
 
-
 footer {
     background-color: #333333;
     padding-bottom: 2%;
 }
-
 
 
 .title-footer-list{
@@ -338,6 +336,15 @@ footer {
     margin: 0 0 10px;
 }
 
+
+@media (max-width: 768px) {
+        .title-footer-list {
+        flex-direction: column;
+    }
+        .title-footer-list > li {
+        padding: 10px 0;
+    }
+}
 
 
 /** 
