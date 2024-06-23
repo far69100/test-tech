@@ -5,3 +5,5 @@ que je veux mais je tenais à me cantonner à des technos simples pour m'assuree
 que je maîtrise. J'ai pris ce parti pour être sûr de maîtriser tout ce que je fais et pouvoir l'expliquer en entretien. 
 
 Merci à ceux qui iront voir et aussi à ceux qui m'ont conseillé de faire un dépôt :)
+
+Le sujet précis c'est donc de coder la landing page d'un site de voyage et les critères pris en compte pour ce test sont la qualité visuelle du rendu, la qualité du code et le temps que j'ai mis à coder tout ça.
