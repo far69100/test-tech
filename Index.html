@@ -2,6 +2,7 @@
     <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!--les attributs http equiv et content sont utiles dans ce contexte ? pas sur , peut- être que sofiane sait-->
 
@@ -36,7 +37,7 @@
                         <li class="burger-items">Séjours en France</li>
                         <li class="burger-items">Partir en train</li>
                     </ul>
-                    <div>
+                    <div id="burger">
                     &#9776;
                     </div>
                 </div>
@@ -46,6 +47,11 @@
                 <article class="art1-blanc">
                         <h1 id="gros-titre-art1">Trouvez facilement votre voyage</h1>
                         <form>
+                            <ul class="options-trajets_form">
+                                <li>Séjours</li>
+                                <li>Vol+hôtel</li>
+                                <li>Train+hôtel</li>
+                            </ul>
                             <label class="champ-label-moteur" for="champ1">On vous emmène où ?</label>
                             <input type="text" id="champ1" name="On vous emmène où ?" 
                             placeholder="Sélectionnez une ou plusieurs destinations">

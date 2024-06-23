@@ -104,8 +104,37 @@ h1,h2,h3 {
 #gros-titre-art1{
     color: #FFFFFF;
     font-weight: 700;
+    font-size: xx-large;
 }
 
+
+
+.options-trajets_form{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0% 8%;
+    border-radius: 20px;
+
+}
+
+.options-trajets_form li {
+    padding: 5% 5%;
+    border: #FFFFFF;
+    display: flex;
+}
+
+.options-trajets_form li:hover {
+    padding: 5% 5%;
+    border: solid 1px #FFFFFF;
+    display: flex;
+    background-color: #AD1F24;
+    border-radius: 16px;
+}
 
 
 form{
@@ -268,6 +297,8 @@ footer {
     background-color: #333333;
     padding-bottom: 2%;
 }
+
+
 
 .title-footer-list{
     display: flex;
