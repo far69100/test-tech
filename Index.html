@@ -3,31 +3,16 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-            <!--les attributs http equiv et content sont utiles dans ce contexte ? pas sur , peut- être que sofiane sait-->
-
-            <!-- Titre à changer car nul/pas assez précis, la partie à changer est celle après le tiret-->
             <title>Accueil - Notre Site</title>
             <link rel="stylesheet" href="css/style.css">
-            <script src="script.js"></script>
-
-        <!-- Js qui ne marche pas pour l'instant, je dois revoir le code mais plus tard -->
+            
 
             <link href="script.js">
         </head>
         <body>
             <header class="menu-header">
-                <!-- Question code j'ai à peu près fait ce qu'il faut mais niveau indentation
-                 et clarté j'ai l'impression de pouvoir faire beaucoup mieux, à voir plus tard
-                 j'aime pas parce que niveau arborescence le menu et le logo ne sont pas sur la même branche -->
+               
                 <div class="nav-bar">
-
-                    <!-- 
-                    design pas totalement correspondant à la maquette mais l'ux fonctionne mieux comme ca je trouve
-                    je trouve le rendu plutôt réussi malgré certaines choses à corriger
-                    La nav-bar fonctionne bien et contient des liens vides pour simuler quand même 
-                    l'effet de navigation. J'ai également ajouté un fond beige pour mieux identifier le menu.
-                    -->
 
                     <img id="logo-menu-burger" src="assets/logo-red.jpg" alt="Logo d'accueil">
                     
@@ -37,35 +22,33 @@
                         <li class="burger-items">Séjours en France</li>
                         <li class="burger-items">Partir en train</li>
                     </ul>
-                    <div id="burger">
-                    <a href="">&#9776;</a>
-                    </div>
                 </div>
             </header>
 
             <main>
                 <article class="art1-blanc">
                         <h1 id="gros-titre-art1">Trouvez facilement votre voyage</h1>
-                        <form>
+                        <form class="formulaire">
                             <ul class="options-trajets_form">
                                 <li>Séjours</li>
                                 <li>Vol+hôtel</li>
                                 <li>Train+hôtel</li>
                             </ul>
                             <label class="champ-label-moteur" for="champ1">On vous emmène où ?</label>
-                            <input type="text" id="champ1" name="On vous emmène où ?" 
+                            <input class="champ-label-moteur" type="text" id="champ1" name="On vous emmène où ?" 
                             placeholder="Sélectionnez une ou plusieurs destinations">
                     
                             <label class="champ-label-moteur" for="champ2">À quelle date ?</label>
-                            <input type="text" id="champ2" name="À quelle date ?" 
+                            <input class="champ-label-moteur" type="text" id="champ2" name="À quelle date ?" 
                             placeholder="Sélectionnez le début de votre séjour">
                     
                             <label class="champ-label-moteur" for="champ3">Pendant ?</label>
-                            <input type="text" id="champ3" name="Pendant ?" 
+                            <input class="champ-label-moteur" type="text" id="champ3" name="Pendant ?" 
                             placeholder="Sélectionnez votre durée">
                     
                             <label class="champ-label-moteur" id="label-gris" for="champ4"></label>
-                            <input type="text" id="champ4" name="champ4" 
+                            <input class="options-trajets_form" class="champ-label-moteur" 
+                            type="text" id="champ4" name="champ4" 
                             placeholder="Recherchez votre séjour">
                         </form>
                 </article>
@@ -85,7 +68,7 @@
                 </ul>
                 <article class="art2-beige">
                     <div class="textes-art2">
-                        <h1><b class="rouge-titre">La destination</b> <b class="gris-titre">à découvrir</b></h1>
+                        <h1><b id="red-title" class="rouge-titre">La destination</b> <b id="grey-title" class="gris-titre">à découvrir</b></h1>
                         <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia rem aperiam harum iure 
                         cupiditate maiores enim praesentium 
@@ -121,5 +104,6 @@
                     </li>
                 </ul>
             </footer>
+            <script src="script.js"></script>
         </body>
     </html>
