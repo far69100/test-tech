@@ -6,8 +6,6 @@
             <title>Accueil - Notre Site</title>
             <link rel="stylesheet" href="css/style.css">
             
-
-            <link href="script.js">
         </head>
         <body>
             <header class="menu-header">
@@ -15,7 +13,7 @@
                 <div class="nav-bar">
 
                     <img id="logo-menu-burger" src="assets/logo-red.jpg" alt="Logo d'accueil">
-                    
+                    <button class="burger" onclick="toggleMenu()">☰</button>
                     <ul class="menu-burger">
                         <li class="burger-items">Nos destinations</li>
                         <li class="burger-items">Envies de voyage</li>
@@ -104,6 +102,11 @@
                     </li>
                 </ul>
             </footer>
-            <script src="script.js"></script>
+            <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu-burger');
+            menu.classList.toggle('show');
+        }
+        </script>
         </body>
     </html>
